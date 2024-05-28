@@ -131,7 +131,7 @@ class Machine:
 
     def print(self):
         v = self.pop()
-        stdout.write(f"{v}")
+        stdout.write(f"{v}\n")
 
     def println(self):
         v = self.pop()
